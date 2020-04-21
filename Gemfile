@@ -8,7 +8,6 @@ ruby '2.6.3'
 gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.2'
 gem 'sass-rails', '~> 5.0'
-gem 'sqlite3', '~> 1.4.2'
 gem 'uglifier', '>= 1.3.0'
 
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -18,6 +17,7 @@ gem 'turbolinks', '~> 5'
 
 gem 'http', '~> 4.4.1'
 gem 'rack-cors', '~> 1.1.1'
+gem 'activerecord-nulldb-adapter', '~> 0.4.0'
 
 group :development, :test do
   gem 'byebug', '~> 11.1.2', platforms: %i[mri mingw x64_mingw]

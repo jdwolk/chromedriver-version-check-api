@@ -23,5 +23,7 @@ module ChromedriverVersionCheckServer
         resource '/api/*', headers: :any, methods: :any
       end
     end
+
+    ActiveRecord::Base.establish_connection adapter: :nulldb
   end
 end
