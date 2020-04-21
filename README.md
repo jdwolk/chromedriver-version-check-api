@@ -1,24 +1,15 @@
-# README
+# Chromedriver Version Check API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Works with [Chromedriver Version Check](https://github.com/jdwolk/chromedriver-version-check)
 
-Things you may want to cover:
+## Install
 
-* Ruby version
+```
+$ bundle
+```
 
-* System dependencies
+## Run
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ bin/rails s
+```
