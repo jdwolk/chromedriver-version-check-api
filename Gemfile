@@ -17,7 +17,7 @@ gem 'turbolinks', '~> 5'
 
 gem 'http', '~> 4.4.1'
 gem 'rack-cors', '~> 1.1.1'
-gem 'activerecord-nulldb-adapter', '~> 0.4.0'
+gem 'pg'
 
 group :development, :test do
   gem 'byebug', '~> 11.1.2', platforms: %i[mri mingw x64_mingw]
